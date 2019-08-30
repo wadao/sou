@@ -11,9 +11,9 @@ if ($q==""||$q==null) {
     echo'<script>window.location.href="https://www.google.com/search?hl=zh&q='.$q.'"</script>';
   }else{
     //默认谷歌
-        echo'<script>window.location.href="https://www.google.com/search?hl=zh&q='.$q.'"</script>';
+       // echo'<script>window.location.href="https://www.google.com/search?hl=zh&q='.$q.'"</script>';
     //可以改为百度
-    //echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'"</script>';
+    echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'"</script>';
   }
 };
 ?>
