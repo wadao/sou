@@ -22,7 +22,7 @@ header('Access-Control-Allow-Headers:x-requested-with,content-type');
 //获取当前ip
 $address=$_SERVER["REMOTE_ADDR"];
 //你的申请的apikey 必填 请到和风天气申请
-$key="";
+$key="3b84217fd2db43f99c64736551d9742a";
 
 
 $jsonlist = file_get_contents("https://free-api.heweather.net/s6/weather/?location=".$address."&key=".$key);
